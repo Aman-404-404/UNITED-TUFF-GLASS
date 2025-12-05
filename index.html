@@ -29,9 +29,22 @@
 
     <!-- Favicon -->
     <link rel="icon" href="/images/UTG LOGO.png" />
+    <!-- Font Awesome for footer icons -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/utg_styles.css" />
+    <style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+   
+
   </head>
 
   <body>
@@ -101,38 +114,32 @@
 
   <div class="grid-3">
     <div class="product">
-      <img src="/images/product-toughened.jpg" alt="Toughened glass">
       <h4>Processing & Quality Assurance</h4>
       <p>“Every Sheet. Every Detail. Perfected.”
         <p>UTG ensures every glass panel passes through stringent testing and European-grade tempering systems for flawless finish and superior strength.  </p>
     </div>
     <div class="product">
-      <img src="/images/product-laminated.jpg" alt="Laminated glass">
       <h4>Service & Lead Time</h4>
       <p>“We Deliver More Than Glass We Deliver Trust.”
         <p>With regional presence across J&K, Punjab, and Himachal, UTG guarantees swift turnaround and dependable delivery, no matter your project scale.</p>
     </div>
     <div class="product">
-      <img src="/images/product-coated.jpg" alt="Double-Glazed Glass">
       <h4>Customized Glass Solutions</h4>
       <p>“Your Vision, Our Craftsmanship".
         <p> We collaborate closely with architects, interior designers, and homeowners to create custom glass solutions that fit every design dream with precision and beauty.</p>
     </div>
     <div class="product">
-      <img src="/images/product-coated.jpg" alt="Double-Glazed Glass">
       <h4>Sustainability & Innovation</h4>
       <p>“Clear Vision. Greener Tomorrow.”</p>
       <p>Energy-efficient, eco-conscious, and designed to last UTG’s products help you build responsibly while staying ahead in design and performance.</p>
     </div>
      <div class="product">
-              <img src="/images/product-coated.jpg" alt="Security glass" />
               <h4>Expert Consultation & Design Support</h4>
               <p>“From Vision to Installation Guided by Expertise.” 
                 <p>At UTG, we don’t just supply glass — we partner with you.
 Our design consultants and technical experts work closely with architects, interior designers, and clients to recommend the ideal glass type, thickness, and finish for your project.</p>
             </div>
             <div class="product">
-              <img src="/images/product-coated.jpg" alt="Security glass" />
               <h4>Legacy of Trust & Local Leadership</h4>
               <p>“A Legacy Built on Trust. A Future Built on Glass.”
                 <p>Our reputation is built on consistency, transparency, and relationships that last — just like our glass.</p>
@@ -166,57 +173,289 @@ Our design consultants and technical experts work closely with architects, inter
         </div>
       </section>
 
-      <!-- Products -->
-      <section id="products">
-        <h2 class="heading">Products</h2>
-        <p class="sub">A curated range of structural and safety glass solutions for every project.</p>
+     <!-- Products -->
+<section id="products">
+  <h2 class="heading">Products</h2>
+  <p class="sub">
+    A curated range of structural and safety glass solutions with multiple colours, finishes and thickness options.
+  </p>
 
-        <div class="grid-3">
-          <div class="product">
-            <img src="/images/icon-tempered.svg" alt="Tempered icon" class="icon" />
-            <h4>Toughened / Tempered Glass</h4>
-            <p>High-impact resistance and safety when broken. Standard sizes or custom-cut to project specifications.</p>
-          </div>
-
-          <div class="product">
-            <img src="/images/icon-laminated.svg" alt="Laminated icon" class="icon" />
-            <h4>Laminated Safety Glass</h4>
-            <p>Multi-layer designs with PVB or SGP interlayers for enhanced security and acoustic control.</p>
-          </div>
-
-          <div class="product">
-            <img src="/images/icon-insulated.svg" alt="Insulated icon" class="icon" />
-            <h4>Insulated Glass Units (IGU)</h4>
-            <p>High-performance double or triple glazed units with Low-E coatings for thermal efficiency.</p>
-          </div>
+  <div class="products-grid">
+    <!-- 1. Toughened / Tempered Glass -->
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="images\tuff glass.jpg" alt="Toughened glass" />
+        <div class="product-hover-info">
+          <p>Doors, façades, railings, partitions and high-traffic areas.</p>
+          <span class="product-hover-sizes">4mm • 5mm • 6mm • 8mm • 10mm • 12mm</span>
         </div>
-      </section>
+      </div>
 
-      <!-- Applications -->
-      <section id="applications">
-        <h2 class="heading">Applications</h2>
-        <p class="sub">UTG glass is used across a wide range of applications — designed to perform and look exceptional.</p>
+      <h4>Toughened / Tempered Glass</h4>
+      <p class="product-tags">
+        High-impact safety • Heat-treated • Ideal for structural use
+      </p>
 
-        <div class="apps">
-          <div class="app">
-            <img src="/images/app-facade.jpg" alt="Facade" />
-            <h4>Structural Façades</h4>
-            <p class="small">Curtain walls, unitized systems and point-fixed glazing for commercial buildings.</p>
-          </div>
+      <details class="product-dropdown">
+        <summary>Sizes, thickness & shapes</summary>
+        <ul>
+          <li>Thickness: 4mm, 5mm, 6mm, 8mm, 10mm, 12mm</li>
+          <li>Shapes: Rectangular, square, custom cut-outs</li>
+          <li>Use cases: doors, façades, railings, partitions</li>
+        </ul>
+      </details>
+    </div>
 
-          <div class="app">
-            <img src="/images/app-balustrade.jpg" alt="Balustrade" />
-            <h4>Balustrades & Staircases</h4>
-            <p class="small">Clear, frameless balustrades that provide safety without blocking views.</p>
-          </div>
-
-          <div class="app">
-            <img src="/images/app-shower.jpg" alt="Shower enclosure" />
-            <h4>Partitions & Shower Enclosures</h4>
-            <p class="small">Precision-cut glass for residential and hospitality interiors.</p>
-          </div>
+    <!-- 2. Laminated Safety Glass -->
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="images\laminated safety.jpg" alt="Laminated glass" />
+        <div class="product-hover-info">
+          <p>Where safety, security and sound reduction are critical.</p>
+          <span class="product-hover-sizes">4mm–12mm (multi-layer)</span>
         </div>
-      </section>
+      </div>
+
+      <h4>Laminated Safety Glass</h4>
+      <p class="product-tags">
+        PVB / SGP interlayers • Security • Acoustic control
+      </p>
+
+      <details class="product-dropdown">
+        <summary>Sizes, thickness & shapes</summary>
+        <ul>
+          <li>Typical build-ups: 4.4mm to 12.12mm laminated</li>
+          <li>Shapes: Flat panels, custom cut-outs, railing panels</li>
+          <li>Use cases: skylights, railings, overhead & security glazing</li>
+        </ul>
+      </details>
+    </div>
+
+    <!-- 3. Double Glazed / IGU Units -->
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="images\double glazed.jpg" alt="Insulated glass units" />
+        <div class="product-hover-info">
+          <p>Energy-efficient envelopes for façades, windows and doors.</p>
+          <span class="product-hover-sizes">Multiple glass combos 4mm–12mm</span>
+        </div>
+      </div>
+
+      <h4>Double Glazed / IGU Units</h4>
+      <p class="product-tags">
+        Thermal insulation • Low-E options • Comfort glazing
+      </p>
+
+      <details class="product-dropdown">
+        <summary>Sizes, thickness & shapes</summary>
+        <ul>
+          <li>Outer / inner panes: 4mm–12mm (toughened / laminated)</li>
+          <li>Air / gas gap as per design</li>
+          <li>Use cases: windows, façades, curtain wall glazing</li>
+        </ul>
+      </details>
+    </div>
+
+    <!-- 4. Tinted Brown Glass -->
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="images\tinted broewn.jpg" alt="Tinted brown glass" />
+        <div class="product-hover-info">
+          <p>Warm aesthetic with controlled daylight and glare.</p>
+          <span class="product-hover-sizes">4mm • 5mm • 6mm • 8mm</span>
+        </div>
+      </div>
+
+      <h4>Tinted Brown Toughened Glass</h4>
+      <p class="product-tags">
+        Solar control • Warm tone • For façades & interiors
+      </p>
+
+      <details class="product-dropdown">
+        <summary>Sizes, thickness & shapes</summary>
+        <ul>
+          <li>Thickness: 4mm, 5mm, 6mm, 8mm</li>
+          <li>Shapes: Fixed panels, doors, partitions</li>
+          <li>Use cases: façades, balconies, room partitions</li>
+        </ul>
+      </details>
+    </div>
+
+    <!-- 5. Ozone Glass -->
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="images\Screenshot 2025-12-02 151613.png" alt="Ocean blue / black glass" />
+        <div class="product-hover-info">
+          <p>Signature coloured glass for premium, bold exteriors.</p>
+          <span class="product-hover-sizes">6mm • 8mm • 10mm • 12mm</span>
+        </div>
+      </div>
+
+      <h4>Ozone Glass</h4>
+      <p class="product-tags">
+        Deep colour • Modern look • Strong visual identity
+      </p>
+
+      <details class="product-dropdown">
+        <summary>Sizes, thickness & shapes</summary>
+        <ul>
+          <li>Thickness: 6mm, 8mm, 10mm, 12mm</li>
+          <li>Shapes: façades, fins, feature panels</li>
+          <li>Use cases: high-end façades, corporate fronts, branding walls</li>
+        </ul>
+      </details>
+    </div>
+
+    <!-- 6. Frosted / Privacy Glass -->
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="images\swytchglass.jpg" alt="Frosted glass" />
+        <div class="product-hover-info">
+          <p>Soft diffused light with privacy for interiors.</p>
+          <span class="product-hover-sizes">4mm • 5mm • 6mm • 8mm • 10mm</span>
+        </div>
+      </div>
+
+      <h4>Frosted / Privacy Glass</h4>
+      <p class="product-tags">
+        Etched / sandblasted • Privacy • Soft light
+      </p>
+
+      <details class="product-dropdown">
+        <summary>Sizes, thickness & shapes</summary>
+        <ul>
+          <li>Thickness: 4mm, 5mm, 6mm, 8mm, 10mm</li>
+          <li>Shapes: doors, partitions, shower enclosures</li>
+          <li>Use cases: offices, washrooms, cabins, bedrooms</li>
+        </ul>
+      </details>
+    </div>
+  </div>
+</section>
+
+
+     <section id="applications">
+  <h2 class="heading">Applications</h2>
+  <p class="sub">
+    UTG glass is used across a wide range of applications — designed to perform and look exceptional.
+  </p>
+
+  <div class="apps">
+    <!-- CARD 1 -->
+    <div class="app">
+      <div class="app-image-wrapper">
+        <img src="images\frameless-glass-partitions.jpg" alt="Glass Doors & Storefront Systems" />
+        <div class="app-hover-info">
+          <button type="button" class="app-hover-btn">View more uses</button>
+        </div>
+      </div>
+
+      <h4>Glass Doors & Storefront Systems</h4>
+      <p class="small app-keywords">
+       Storefront glazing • Unitized systems • Point-fixed glazing
+      </p>
+
+      <details class="app-dropdown">
+        <summary>All applications</summary>
+        <ul>
+          <li>Frameless glass doors</li>
+          <li>Sliding and swing doors</li>
+          <li>Retail storefronts</li>
+          <li>Shop entrances</li>
+        </ul>
+      </details>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="app">
+      <div class="app-image-wrapper">
+        <img src="images/home interior.jpg" alt="Balustrades & Staircases" />
+        <div class="app-hover-info">
+          <button type="button" class="app-hover-btn">View more uses</button>
+        </div>
+      </div>
+
+      <h4>Balustrades & Staircases</h4>
+      <p class="small app-keywords">
+        Frameless balustrades • Railings • Staircase glazing
+      </p>
+
+      <details class="app-dropdown">
+        <summary>All applications</summary>
+        <ul>
+          <li>Glass railings for balconies</li>
+          <li>Indoor / outdoor staircases</li>
+          <li>Deck & terrace safety glazing</li>
+          <li>Glass bridges & walkways</li>
+        </ul>
+      </details>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="app">
+      <div class="app-image-wrapper">
+        <img src="images\dsc04162-pano-solomon.jpg" alt="Sun Control & Energy-Efficient Glazing" />
+        <div class="app-hover-info">
+          <button type="button" class="app-hover-btn">View more uses</button>
+        </div>
+      </div>
+
+      <h4>Sun Control & Energy-Efficient Glazing</h4>
+      <p class="small app-keywords">
+        Low-E glass • Insulated glass • Energy Efficient Glazing
+      </p>
+
+      <details class="app-dropdown">
+        <summary>All applications</summary>
+        <ul>
+          <li>Office towers</li>
+          <li>Residential facades</li>
+          <li>Malls & hotels</li>
+          <li>Public buildings</li>
+        </ul>
+      </details>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="app">
+      <div class="app-image-wrapper">
+        <img src="images/commercial spaces.jpg" alt="Commercial spaces" />
+        <div class="app-hover-info">
+          <button type="button" class="app-hover-btn">View more uses</button>
+        </div>
+      </div>
+
+      <h4>Commercial spaces & Office Interiors</h4>
+      <p class="small app-keywords">
+        Office partitions • Shower cubicles • Privacy glass
+      </p>
+
+      <details class="app-dropdown">
+        <summary>All applications</summary>
+        <ul>
+          <li>Corporate office cabins</li>
+          <li>Glass conference rooms</li>
+          <li>Meeting rooms</li>
+          <li>Work pods & focus room</li>
+        </ul>
+      </details>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll(".app-hover-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const card = btn.closest(".app");
+      const details = card?.querySelector(".app-dropdown");
+      if (details) {
+        details.open = true; // open the dropdown
+        details.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    });
+  });
+</script>
+
 
       <!-- Gallery -->
       <section id="gallery">
@@ -272,8 +511,7 @@ Our design consultants and technical experts work closely with architects, inter
       <p class="sub">Explore our site and discover everything UTG offers.</p>
     
       <div class="map-embed">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d824.4808725243862!2d74.8570!3d32.7266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sUnited%20Toughened%20Glass!5e0!3m2!1sen!2sin!4v1234567890"
-                allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420.33451638854876!2d75.09984119596395!3d32.561487817133106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391c2300313161ef%3A0x612654742b877909!2sUnited%20Tuff%20Glass%20(UTG)!5e0!3m2!1sen!2sin!4v1762772781872!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
 
@@ -310,19 +548,48 @@ Our design consultants and technical experts work closely with architects, inter
       </ul>
     </div>
 
-    <div>
-      <h4>Contact</h4>
-      <p class="small">
-        info@unitedtoughenedglass.com<br>
-        +91 99999 99999<br>
-        United Toughened Glass
-      </p>
-    </div>
-  </div>
+    <div class="footer-contact">
+  <h4>Contact</h4>
+  <ul>
+    <!-- Scroll to Contact Form -->
+    <li>
+      <i class="fas fa-envelope"></i>
+      <a href="#contact">info@unitedtoughenedglass.com</a>
+    </li>
 
-  <div class="footer-bottom">
-    <div>© 2025 United Toughened Glass. All rights reserved.</div>
-    <div>Designed for reliability & performance</div>
+    <!-- WhatsApp Redirect -->
+    <li>
+      <i class="fas fa-phone"></i>
+      <a
+        href="https://wa.me/919541344316?text=Hello%20UTG!%20I%20want%20to%20know%20more%20about%20your%20glass%20solutions."
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        +91 95413 44316
+      </a>
+    </li>
+
+    <!-- Google Map -->
+   <li>
+  <i class="fas fa-map-marker-alt"></i>
+  <a
+    href="https://www.google.com/maps/place/United+Tuff+Glass+(UTG)/@32.5614878,75.0998412,20z/data=!4m6!3m5!1s0x391c2300313161ef:0x612654742b877909!8m2!3d32.5616391!4d75.099767!16s%2Fg%2F11y3mywfz7?entry=ttu"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    SIDCO Industrial Area Samba, Balour, Samba, Jammu and Kashmir - 184121
+  </a>
+</li>
+
+  </ul>
+</div>
+
+
+<div class="footer-bottom-wrapper">
+    <div class="footer-bottom">
+      <div>© 2025 United Toughened Glass. All rights reserved.</div>
+      <div>Designed for reliability & performance</div>
+    </div>
   </div>
 </footer>
 
